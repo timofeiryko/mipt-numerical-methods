@@ -1,0 +1,182 @@
+{
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "mpmath": "1.3.0",
+    "matplotlib": "3.10.9"
+  },
+  "decimal_digits": 90,
+  "rows": 164,
+  "dense_checks": [
+    {
+      "function": "cos",
+      "grid": "uniform",
+      "N": 20,
+      "dense_polynomial_ratio": 0.9999923957610417,
+      "dense_spline_ratio": 0.9999952652466958
+    },
+    {
+      "function": "cos",
+      "grid": "uniform",
+      "N": 21,
+      "dense_polynomial_ratio": 0.9999999217094568,
+      "dense_spline_ratio": 0.9999927756005548
+    },
+    {
+      "function": "cos",
+      "grid": "uniform",
+      "N": 40,
+      "dense_polynomial_ratio": 0.9999989474943832,
+      "dense_spline_ratio": 0.9999991013280134
+    },
+    {
+      "function": "cos",
+      "grid": "uniform",
+      "N": 41,
+      "dense_polynomial_ratio": 0.9999847898862739,
+      "dense_spline_ratio": 0.9999977636925227
+    },
+    {
+      "function": "cos",
+      "grid": "uniform",
+      "N": 59,
+      "dense_polynomial_ratio": 0.9999500895301541,
+      "dense_spline_ratio": 0.9999339901141107
+    },
+    {
+      "function": "cos",
+      "grid": "uniform",
+      "N": 60,
+      "dense_polynomial_ratio": 0.9999899953192272,
+      "dense_spline_ratio": 0.9999536046709144
+    },
+    {
+      "function": "cos",
+      "grid": "chebyshev",
+      "N": 20,
+      "dense_polynomial_ratio": 1.0,
+      "dense_spline_ratio": 0.9999862718985415
+    },
+    {
+      "function": "cos",
+      "grid": "chebyshev",
+      "N": 21,
+      "dense_polynomial_ratio": 1.0,
+      "dense_spline_ratio": 0.9998858800668459
+    },
+    {
+      "function": "cos",
+      "grid": "chebyshev",
+      "N": 40,
+      "dense_polynomial_ratio": 1.0,
+      "dense_spline_ratio": 0.9997814603407156
+    },
+    {
+      "function": "cos",
+      "grid": "chebyshev",
+      "N": 41,
+      "dense_polynomial_ratio": 1.0,
+      "dense_spline_ratio": 0.9995705351310231
+    },
+    {
+      "function": "cos",
+      "grid": "chebyshev",
+      "N": 59,
+      "dense_polynomial_ratio": 1.0,
+      "dense_spline_ratio": 0.9996436199571889
+    },
+    {
+      "function": "cos",
+      "grid": "chebyshev",
+      "N": 60,
+      "dense_polynomial_ratio": 1.0,
+      "dense_spline_ratio": 0.9965706383353014
+    },
+    {
+      "function": "tanh",
+      "grid": "uniform",
+      "N": 20,
+      "dense_polynomial_ratio": 0.999995617770246,
+      "dense_spline_ratio": 0.9999992852174933
+    },
+    {
+      "function": "tanh",
+      "grid": "uniform",
+      "N": 21,
+      "dense_polynomial_ratio": 0.9999860763113726,
+      "dense_spline_ratio": 0.9999934539678342
+    },
+    {
+      "function": "tanh",
+      "grid": "uniform",
+      "N": 40,
+      "dense_polynomial_ratio": 0.9999889464787053,
+      "dense_spline_ratio": 0.9999969383967432
+    },
+    {
+      "function": "tanh",
+      "grid": "uniform",
+      "N": 41,
+      "dense_polynomial_ratio": 0.9999733594959427,
+      "dense_spline_ratio": 0.9999988570758446
+    },
+    {
+      "function": "tanh",
+      "grid": "uniform",
+      "N": 59,
+      "dense_polynomial_ratio": 0.9999413803761421,
+      "dense_spline_ratio": 0.9999523024457149
+    },
+    {
+      "function": "tanh",
+      "grid": "uniform",
+      "N": 60,
+      "dense_polynomial_ratio": 0.999999797924347,
+      "dense_spline_ratio": 0.9999362805039608
+    },
+    {
+      "function": "tanh",
+      "grid": "chebyshev",
+      "N": 20,
+      "dense_polynomial_ratio": 0.9999977820088416,
+      "dense_spline_ratio": 0.9999961115067133
+    },
+    {
+      "function": "tanh",
+      "grid": "chebyshev",
+      "N": 21,
+      "dense_polynomial_ratio": 0.999999002713769,
+      "dense_spline_ratio": 0.9999996828791462
+    },
+    {
+      "function": "tanh",
+      "grid": "chebyshev",
+      "N": 40,
+      "dense_polynomial_ratio": 0.9999982693789117,
+      "dense_spline_ratio": 0.999983973284342
+    },
+    {
+      "function": "tanh",
+      "grid": "chebyshev",
+      "N": 41,
+      "dense_polynomial_ratio": 0.9999872841818327,
+      "dense_spline_ratio": 0.9999998702128743
+    },
+    {
+      "function": "tanh",
+      "grid": "chebyshev",
+      "N": 59,
+      "dense_polynomial_ratio": 0.9999937786639783,
+      "dense_spline_ratio": 0.999995511802543
+    },
+    {
+      "function": "tanh",
+      "grid": "chebyshev",
+      "N": 60,
+      "dense_polynomial_ratio": 1.0,
+      "dense_spline_ratio": 0.9999998077421192
+    }
+  ],
+  "largest_independent_relative_difference": 1.1795763476011458e-16
+}
